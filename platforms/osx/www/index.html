@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <title>Quickbit</title>
+        <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+    <body>
+        <div id="top">
+            <p class="toptxt" id="menu" onclick="menu()">M</p>
+            <p class="toptxt" id="time">Time: </p>
+            <p class="toptxt" id="score">Score: </p>
+        </div>
+        <div id="targetnum" onclick="start(0)">
+            <p id="begin">Start</p>
+        </div>
+        <div id="result" onclick="binary(5)">
+            <p> Filler text</p>
+            <hr>
+        </div>
+        <div id="n0" class="numbers" onclick="add(0)">
+            <p>0</p>
+        </div>
+        <div id="n1" class="numbers" onclick="add(1)">
+            <p>1</p>
+        </div>
+        <div id="nd" class="numbers" onclick="backres()">
+            <p>delete</p>
+        </div>
+        <div id="timer">
+            <div id="timerbar">
+                
+            </div>
+        </div>
+    </body>
+</html>

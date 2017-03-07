@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+html, body{
+    height: 100vh;
+    background-color: blue;
+}
+#top{
+    background-color: red;
+    width: 100vw;
+    height: 10vh;
+    color: orange;
+    font-style: bold;
+    font-size: 6vh;
+}
+.toptxt{
+    margin-top: 2vh;
+}
+#menu{
+    float: left;
+    margin-left: 2vw;
+}
+#menufloat{
+    position: absolute;
+    text-align: center;
+    background-color: gray;
+    border-radius: 10vh;
+    overflow: scroll;
+    width: 80vw;
+    left: 10vw;
+    height: 90vh;
+    top: 5vh;
+}
+#menufloat li{
+    margin-top: 5%;
+    font-size: 200%;
+}
+#menufloat li input{
+    width: 80%;
+
+}
+#time{
+    float: left;
+    margin-left: 3vw;
+}
+#score{
+    float: right;
+    margin-right: 8vw;
+}
+#targetnum{
+    border: green dashed;
+    border-radius: 5vh;
+    font-size: 18vh;
+    background-color: white;
+    height: 20vh;
+    width: 80vw;
+    margin:3vh auto 2vh auto;
+    text-align: center;
+}
+#result{
+    width: 100vw;
+    height: 5vh;
+    margin: 3vh 0 0 0;
+    text-align: center;
+    font-style: bold;
+    font-size: 20px;
+    float: left;
+}
+.numbers{
+    border-radius: 5vh;
+    text-align: center;
+    font-size: 15vh;
+    background-color: white;
+    width: 15vh;
+    height: 15vh;
+    margin: 2vh 0 4vh 0;
+    float: left;
+}
+#n0{
+    float: left;
+    margin: 5vh 0 4vh 7vw;
+}
+#n1{
+    float: right;
+    margin: 5vh 7vw 4vh 0;
+}
+#nd{
+    width: 90vw;
+    margin-left: 5vw;
+}
+#timer{
+    border-radius: 4vh;
+    overflow: hidden;
+    width: 100vw;
+    height: 8vh;
+    float: left;
+}
+#timerbar{
+    background-color: orange;
+    width: 100%;
+    height: 100%;
+}
